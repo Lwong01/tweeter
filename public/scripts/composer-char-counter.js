@@ -24,23 +24,4 @@ $(document).ready(function () {
 
 
 
-
-
 });
-
-//   $(".newTweet").on('input', function(event){
-//     let textLength = $(this).val().length;
-//     let textLeft = maxText - textLength;
-//     console.log(textLeft);
-//   });
-
-//   $(this).siblings(".counter").html(charLeft);
-
-//   if (text.Length > maxText) {
-//     $('.new-tweet textarea').css('color', 'red');
-//   } else {
-//     $('.new-tweet textarea').css('color', 'black');
-//   }
-
-
-// });

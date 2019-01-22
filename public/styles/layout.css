@@ -32,12 +32,75 @@ body {
 
 .container {
   width: 450px;
-  height: 100%;
+  min-height: 146vh;
   background-color: white;
   margin: auto;
   padding-top: 80px;
 
+}
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+#tweet_container:hover {
+  opacity .5;
+}
+
+#tweet_container{
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+  .images{
+  width: 55px;
+  height: 55px;
+  float:left;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footer_tweet{
+border-top: 2px solid lightgrey;
+width: 100%;
+padding: 10px;
+}
+
+.tweet{
+   margin-top: 20px;
+   border: 1px solid black;
+   border-radius: 20px;
+   opacity: .5;
+}
+
+.tweet header {
+  width:408px;
+  float:left;
+  background-color:#eee;
+  border-radius: 20px 20px 0px 0px;
+}
+.tweet header div {
+  padding: 20px 10px 5px 20px;
+  float:left;
+}
+.tweet header div.tweetHandle {
+  float:right;
+}
+.tweet header div h2{
+  width:200px;
+  margin-top: -5px;
+  margin-left: -20px;
+
+}
+
+.tweet p {
+  padding: 95px 20px 0px 20px;
+}
+
+.tweet footer {
+  border-top: 1px gray solid;
+  padding: 10px 20px 10px 20px;
+}
