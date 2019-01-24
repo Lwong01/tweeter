@@ -23,10 +23,11 @@ $(function () {
     console.log("This is TextCha", textChar);
     const textLength = $(".newTweet").val().length;
     if (textLength === 0){
-      $(".error").text("Please enter a message").slideDown();
+      $(".error").empty();
+      $(".error").text("Please enter a message");
       return false;
     } else if (textLength > 140) {
-      $(".error").text("Please ensure your character is under 140 characters").slideDown();
+      $(".error").text("Please get your characters under 140!").slideDown();
       return false;
     }
 

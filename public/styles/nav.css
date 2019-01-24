@@ -20,3 +20,10 @@
   font-size: 200%;
 }
 
+#nav-bar #compose{
+  float:right;
+  margin-top: 18px;
+  padding: 20px 30px;
+  border-radius: 3px;
+  background-color: white;
+}
