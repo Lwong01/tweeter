@@ -39,10 +39,6 @@ body {
 
 }
 
-#tweet_container:hover {
-  opacity .5;
-}
-
 #tweet_container{
   background-color: white;
   border-radius: 20px;
@@ -50,6 +46,8 @@ body {
   margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
+
+
 
 }
 
@@ -73,7 +71,12 @@ padding: 10px;
    margin-top: 20px;
    border: 1px solid black;
    border-radius: 20px;
+   transition: 0.5s;
    opacity: .5;
+}
+.tweet:hover{
+  transition: 0.5s;
+  opacity 1;
 }
 
 .tweet header {
