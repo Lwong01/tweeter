@@ -76,7 +76,7 @@ padding: 10px;
 }
 .tweet:hover{
   transition: 0.5s;
-  opacity 1;
+  opacity: 1;
 }
 
 .tweet header {
