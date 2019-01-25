@@ -23,8 +23,7 @@ $(function () {
     console.log("This is TextCha", textChar);
     const textLength = $(".newTweet").val().length;
     if (textLength === 0){
-      $(".error").empty();
-      $(".error").text("Please enter a message");
+      $(".error").text("Please enter a message").slideDown();
       return false;
     } else if (textLength > 140) {
       $(".error").text("Please get your characters under 140!").slideDown();
@@ -73,7 +72,7 @@ $(function () {
   }
 
   function renderTweets(tweets) {
-   $("#tweets-container").empty();
+   $("#tweet_container").empty();
     for (let tweet of tweets) {
       var $tweet = createTweetElement(tweet);
       $('#tweet_container').prepend($tweet);
